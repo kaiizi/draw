@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:13:22.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="qTaHDYhewcoo6M-s3YG_" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:15:21.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="Xq4GXuIlMS7-Ynx_YdgK" version="15.6.8" type="github">
   <diagram id="XsuQ8nR7xX_qQf-AYgwA" name="第 1 页">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,24 @@
         </mxCell>
         <mxCell id="WVLH2xlrgRP1fE_CVf-3-45" value="boltDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="975" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WVLH2xlrgRP1fE_CVf-3-47" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVLH2xlrgRP1fE_CVf-3-48" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVLH2xlrgRP1fE_CVf-3-49" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVLH2xlrgRP1fE_CVf-3-48" target="WVLH2xlrgRP1fE_CVf-3-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="315" y="380" as="sourcePoint" />
+            <mxPoint x="415" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVLH2xlrgRP1fE_CVf-3-51" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WVLH2xlrgRP1fE_CVf-3-47" target="WVLH2xlrgRP1fE_CVf-3-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="315" y="205" as="sourcePoint" />
+            <mxPoint x="405" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
